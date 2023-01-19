@@ -5,9 +5,9 @@ import "./App.css";
 import { useCallback, useEffect, useState } from "react";
 
 //data
-import { wordsList } from ".data/words";
-import StartScreen from "./components/startScreen";
-import Game from "./components/game";
+import { wordsList } from "./data/words";
+import StartScreen from "./components/StartScreen";
+import Game from "./components/Game";
 import GameOver from "./components/GameOver";
 
 const stages = [
